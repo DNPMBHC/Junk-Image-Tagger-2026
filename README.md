@@ -1,6 +1,7 @@
 ﻿# 打标器（Labeler Web）
 
 一个基于 Node.js + Express 的本地化图像打标工具，内置：
+<img width="2482" height="1248" alt="image" src="https://github.com/user-attachments/assets/0c82e786-a3bc-40ee-83d6-9fb353d32f92" />
 
 - 渠道管理（OpenAI 兼容接口）
 - 调度组与多步骤重试规则
