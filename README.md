@@ -26,6 +26,12 @@
 
 ---
 
+## 新版操作说明
+
+- 新版打标流程与注意事项：`打标方式与注意事项.md`
+
+---
+
 ## 运行环境
 
 - Node.js 18+
@@ -67,14 +73,14 @@ PORT=30101 npm start
 
 ## 打包发布（Windows EXE）
 
-项目使用 `pkg` 进行打包，仓库中已包含示例产物：
+项目使用 `pkg` 进行打包，默认产物为：
 
-- `dist/labeler-web.exe`
+- `dist/labeler-web-console.exe`
 
-如需重新打包，可在项目根目录执行（示例）：
+如需重新打包，请在项目根目录执行：
 
 ```bash
-npx pkg server.js --targets node18-win-x64 --output dist/labeler-web.exe
+npm run build:exe
 ```
 
 ---
